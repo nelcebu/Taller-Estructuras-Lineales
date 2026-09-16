@@ -16,7 +16,7 @@ public class GeneradorNumeros {
         return numeros;
     }
 
-    private static int generarNumeroEnRango(int minimo, int maximo) {
+    public static int generarNumeroEnRango(int minimo, int maximo) {
         return generadorAleatorio.nextInt(maximo - minimo + 1) + minimo;
     }
 }
